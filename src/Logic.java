@@ -1,5 +1,3 @@
-import org.junit.Ignore;
-
 import java.util.Scanner;
 
 public class Logic {
@@ -60,7 +58,10 @@ public class Logic {
     } // returnerar antalet rader -1 för att räkna bort raden för "stop"
 
     public void setCountChars() { // setter för att räkna bokstäver
-        countChars += input.length(); // räknar bokstäverna baserat på längden av orden
+        if (!input.equalsIgnoreCase("stop")) { // räknar bort ordet stop
+            // likt hur man stoppar while loopen ovanför även om man stavar stop på olika sätt
+            countChars += input.length(); // räknar bokstäverna baserat på längden av orden
+        }
     }
 
     public int getCountChars() { // returnerar antalet bokstäver till Main class
@@ -79,3 +80,11 @@ public class Logic {
         return longestWord;
     }
 }
+
+/*    public void setCountChars() {
+        if (!input.equalsIgnoreCase("stop")) {
+            countChars += input.length(); // räknar bokstäverna baserat på längden av orden
+        }
+    }
+
+ */

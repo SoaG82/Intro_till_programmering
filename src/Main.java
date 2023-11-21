@@ -16,7 +16,7 @@ public class Main {
 
 
         // skriver ut getters
-        System.out.println("Antal chars är: " + logic.getCountChars()); // skriver ut antal bokstäver från räknaren
+        System.out.println("Antal bokstäver är: " + logic.getCountChars()); // skriver ut antal bokstäver från räknaren
         System.out.println("Antal ord är: " + logic.getCountWords()); // skriver ut antal ord från räknaren
         // -ordet stop
         System.out.println("Antal rader är: " + logic.getCountRows()); // skriver ut antal rader från räknaren
