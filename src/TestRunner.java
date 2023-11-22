@@ -30,6 +30,7 @@ public class TestRunner {
     @Test
     public void testSetCountChars() { // testar setCountChars
         logicTest.setCountChars();
-        assertEquals(1, logicTest.getCountChars()); // returnerar -1 för jag räknar bort ordet stop.
+        assertEquals(1, logicTest.getCountChars()); // returnerar 0 ifall jag ändrar original string till ""
+        // istället för " ".
     }
 }
