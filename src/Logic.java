@@ -80,11 +80,3 @@ public class Logic {
         return longestWord;
     }
 }
-
-/*    public void setCountChars() {
-        if (!input.equalsIgnoreCase("stop")) {
-            countChars += input.length(); // räknar bokstäverna baserat på längden av orden
-        }
-    }
-
- */
