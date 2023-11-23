@@ -14,14 +14,13 @@ public class Main {
         logic.setLongestWord();
 
 
-
         // skriver ut getters
         System.out.println("Antal bokstäver är: " + logic.getCountChars()); // skriver ut antal bokstäver från räknaren
         System.out.println("Antal ord är: " + logic.getCountWords()); // skriver ut antal ord från räknaren
         // -ordet stop
         System.out.println("Antal rader är: " + logic.getCountRows()); // skriver ut antal rader från räknaren
         // -raden för stop
-        System.out.println("Det längsta ordet är: " + "'"+ logic.getLongestWord() + "'");
+        System.out.println("Det längsta ordet är: " + "'" + logic.getLongestWord() + "'");
         // skriver ut det längsta ordet
     }
 }

@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class Logic {
     private Scanner scanner; // Scannerns namn
     private String input = " "; // initiala värdet för input i det användaren matar in. Mellanslaget gör att den
-    // returnerar 1
-    // (i brist på annat sätt att förklara det)
+    // returnerar 1 (i brist på annat sätt att förklara det)
 
     public Logic(Scanner scanner) { // Kallar på scanner (hoppas det är rätt för uppgiften)
         this.scanner = scanner;
@@ -76,6 +75,7 @@ public class Logic {
             }
         }
     }
+
     public String getLongestWord() { // returnerar det längsta ordet
         return longestWord;
     } // returnerar det längsta ordet
