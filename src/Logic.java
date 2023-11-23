@@ -78,5 +78,5 @@ public class Logic {
     }
     public String getLongestWord() { // returnerar det längsta ordet
         return longestWord;
-    }
+    } // returnerar det längsta ordet
 }
